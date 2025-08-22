@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair Display&display=swap');
+
+body {
+    font-family: Playfair Display, serif;
+    background: linear-gradient(0deg, #000000 0%, #0000b3 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(139, 139, 139);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(139, 139, 139);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #000000 0%, #0000b3 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #000000 0%, #0000b3 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #000000 0%, #0000b3 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-aim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
